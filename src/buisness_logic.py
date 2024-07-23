@@ -1,7 +1,7 @@
 import json
 from typing import List, Optional
 
-from model import Book
+from .model import Book
 
 
 def load_books_from_library() -> List[Book]:
